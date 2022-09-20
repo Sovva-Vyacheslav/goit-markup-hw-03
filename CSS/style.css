@@ -20,6 +20,12 @@
   --adres-text-color: #ffffff;
 }
 
+ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
 body {
   font-family: 'Roboto', 'Raleway', 'sans-serif';
   background-color: var(--body-background);
@@ -51,19 +57,32 @@ body {
 
 /* header */
 
-/* .header {
-  width: 1230px;
-} */
+.header {
+  
+}
 
 .container {
-  width: 1230px;
+  display: flex;
+    width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
+  
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
+  
+
+  border-bottom: 1px #ECECEC;
 }
+
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  
+}
+
+
+
 
 .list-nav {
   display: flex;
@@ -80,7 +99,9 @@ body {
 }
 
 .header {
-  background-color: var(--header-bckg-color);
+ background-color: var(--header-bckg-color);
+border-bottom: 1px solid #ECECEC;
+
 }
 
 .logo > span {
@@ -92,6 +113,8 @@ body {
 }
 
 .logo {
+margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -130,6 +153,7 @@ body {
 .contacts {
   margin-left: auto;
   display: flex;
+  
 }
 
 .contacts > li {
@@ -158,6 +182,36 @@ body {
 }
 
 /* main content -- section 1  */
+
+
+
+/* portfolio page */
+
+.container-links{
+  display: flex;
+  align-items: center;
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid tomato;
+  
+}
+
+.links-button{
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 1px solid teal;
+
+  
+}
+
+
+
+
+
+/* portfolio page */
 
 .section {
   background-color: #2f303a;
@@ -385,6 +439,8 @@ h2 {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .footer-container > a {
@@ -395,7 +451,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-right: auto;
-  padding-bottom: 60px;
+  
 
   list-style: none;
   font-style: normal;
@@ -411,7 +467,11 @@ h2 {
 }
 
 .adress > a {
-  color: rgba(255, 255, 255, 1);
+color: rgba(255, 255, 255, 1);
+}
+
+.adress{
+  margin-bottom: 9px;
 }
 
 .footer-link > a {
@@ -420,6 +480,10 @@ h2 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link{
+  margin-bottom: 9px;
 }
 
 .link.active:focus {
