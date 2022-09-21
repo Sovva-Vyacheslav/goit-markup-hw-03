@@ -20,10 +20,14 @@
   --adres-text-color: #ffffff;
 }
 
-ul{
-margin: 0px;
-padding: 0px;
-list-style: none;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 body {
@@ -57,27 +61,26 @@ body {
 
 /* header */
 
-
 .container {
-  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  
+
   margin-left: auto;
   margin-right: auto;
-  
-  border-bottom: 1px #ECECEC;
+
+  border-bottom: 1px #ececec;
 }
 
-.navigation{
+.content {
+  display: flex;
+}
+
+.navigation {
   display: flex;
   align-items: center;
   margin-right: 0px;
-  
 }
-
-
 
 .list-nav {
   display: flex;
@@ -94,9 +97,8 @@ body {
 }
 
 .header {
-background-color: var(--header-bckg-color);
-border-bottom: 1px solid #ECECEC;
-
+  background-color: var(--header-bckg-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .logo > span {
@@ -108,7 +110,6 @@ border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -126,9 +127,11 @@ border-bottom: 1px solid #ECECEC;
   display: block;
   padding-top: 21px;
   padding-bottom: 21px;
+
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
+
   color: #212121;
 }
 
@@ -145,10 +148,9 @@ border-bottom: 1px solid #ECECEC;
 /* Хедер контакты */
 
 .contacts {
-  margin-left: auto;
   display: flex;
   align-items: center;
-  
+  margin-left: auto;
 }
 
 .contacts > li {
@@ -165,11 +167,13 @@ border-bottom: 1px solid #ECECEC;
 
 .contacts .link {
   display: block;
+
   font-weight: 500;
-  color: #757575;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  color: #757575;
 }
 
 .active:hover {
@@ -178,31 +182,19 @@ border-bottom: 1px solid #ECECEC;
 
 /* main content -- section 1  */
 
-
-
 /* portfolio page */
 
-.container-links{
-  display: flex;
-  align-items: center;
+.container-links {
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid tomato;
-  
 }
-
-.links-button{
-  padding-top: 94px;
-  padding-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  outline: 1px solid teal;
-
-  
+.filters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 
 
@@ -244,6 +236,7 @@ border-bottom: 1px solid #ECECEC;
 } */
 
 .btn {
+  
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -262,12 +255,46 @@ border-bottom: 1px solid #ECECEC;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.link.active:focus {
+  color: #2196f3;
+}
+
+.list .btn {
+  
+  background-color: var(--list-btn-bckg-potfolio-page);
+}
+
+.list .btn:hover {
+  background-color: #2196f3;
+}
+
+.list .btn:active {
+  background-color: #2196f3;
+  color: #fff;
+}
+
 /* main content -- section 1  */
 
 /* btn decoration portfolio */
 
+.btn-potfolio{
+    padding: 6px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .btn-list {
-  font-family: 'Roboto';
+    font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -317,18 +344,17 @@ border-bottom: 1px solid #ECECEC;
 .list {
   display: flex;
   align-items: center;
+  gap: 8px;
   margin-top: 0px;
-  margin-bottom: 94px;
   padding-left: 0px;
 }
 
-.list > li:not(:last-child) {
-  margin-right: 30px;
-}
+/* .list > li:not(:last-child) {
 
-h2 {
-  margin-top: 0px;
-}
+  margin-right: 30px;
+} */
+
+
 
 /* main section portfolio  */
 
@@ -429,7 +455,6 @@ h2 {
 
 .footer a {
   margin-bottom: 20px;
-     
 }
 
 .footer {
@@ -446,7 +471,6 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-right: auto;
-  
 
   list-style: none;
   font-style: normal;
@@ -462,10 +486,10 @@ h2 {
 }
 
 .adress > a {
-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
-.adress{
+.adress {
   margin-bottom: 9px;
 }
 
@@ -477,23 +501,7 @@ color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link{
+.footer-link {
   margin-bottom: 9px;
 }
 
-.link.active:focus {
-  color: #2196f3;
-}
-
-.list .btn {
-  background-color: var(--list-btn-bckg-potfolio-page);
-}
-
-.list .btn:hover {
-  background-color: #2196f3;
-}
-
-.list .btn:active {
-  background-color: #2196f3;
-  color: #fff;
-}
