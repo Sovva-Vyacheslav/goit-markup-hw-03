@@ -176,8 +176,12 @@ body {
   color: #757575;
 }
 
-.active:hover {
+.active-link:hover {
   color: #2196f3;
+}
+
+.active-link{
+  text-decoration: none;
 }
 
 /* main content -- section 1  */
@@ -194,8 +198,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
+.active:hover{
+  background-color: #2196f3;
+  color: #ffffff;
+}
 
 
 /* portfolio page */
@@ -345,8 +355,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 0px;
-  padding-left: 0px;
+  
+  
 }
 
 /* .list > li:not(:last-child) {
