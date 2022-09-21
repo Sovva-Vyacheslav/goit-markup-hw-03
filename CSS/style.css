@@ -94,7 +94,7 @@ body {
 }
 
 .header {
- background-color: var(--header-bckg-color);
+background-color: var(--header-bckg-color);
 border-bottom: 1px solid #ECECEC;
 
 }
