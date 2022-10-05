@@ -206,7 +206,7 @@ body {
   padding-bottom: 94px;
 }
 
-.about-items{
+.about-items {
   width: 270px;
 }
 
@@ -222,6 +222,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+}
+
+.list-filtres {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .active:hover {
@@ -253,7 +259,6 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  
 }
 
 .section-title {
