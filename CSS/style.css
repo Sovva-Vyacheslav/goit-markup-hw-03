@@ -206,6 +206,10 @@ body {
   padding-bottom: 94px;
 }
 
+.about-items{
+  width: 270px;
+}
+
 .container-links {
   width: 1230px;
   margin-left: auto;
@@ -249,7 +253,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  color: #ffff;
+  
 }
 
 .section-title {
@@ -263,6 +267,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffff;
 }
 
 /* .section .section-title {
@@ -372,7 +377,7 @@ body {
 .subtitle {
   margin-top: 4px;
 
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--subtitle-text-color);
@@ -381,7 +386,7 @@ body {
 .list {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 30px;
 }
 
 /* .list > li:not(:last-child) {
