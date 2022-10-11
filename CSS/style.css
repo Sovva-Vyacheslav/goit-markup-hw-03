@@ -12,7 +12,7 @@
   --link-color: #2196f3;
   --main-text-color: #212121;
   --body-background: #ffffff;
-  
+
   --footer-back-color: #2f303a;
   --header-bckg-color: #ffffff;
   --main-section-bckg-color: #2f303a;
@@ -22,8 +22,7 @@
 
 :root {
   --subtitle-text-color: #757575;
-  --secondary-text-color:#757575;
-
+  --secondary-text-color: #757575;
 }
 
 ul {
@@ -199,6 +198,10 @@ body {
   text-decoration: none;
 }
 
+.active-contacts:hover {
+  color: #2196f3;
+}
+
 /* main content -- section 1  */
 
 /* portfolio page */
@@ -344,8 +347,6 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-
-  
 }
 
 /* .btn-list {
@@ -394,10 +395,6 @@ body {
   color: var(--subtitle-text-color);
 }
 
-
-
-
-
 .list {
   display: flex;
   align-items: center;
@@ -412,8 +409,10 @@ body {
 /* main section portfolio  */
 
 .list-title {
+  margin-bottom: 4px;
+
   font-size: 18px;
-  line-height: 2.25;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--maim-text-color);
 }
@@ -474,7 +473,6 @@ body {
   padding-bottom: 30px;
 }
 
-
 .section-team h2 {
   margin-bottom: 50px;
 
@@ -487,7 +485,7 @@ body {
 
 .section-team h3 {
   margin-bottom: 10px;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;

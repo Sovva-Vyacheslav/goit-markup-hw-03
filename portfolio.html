@@ -30,57 +30,46 @@
       <div class="container content">
         <nav class="navigation">
           <a href="./index.html" class="logo-header link"><span>Web</span>Studio</a>
-    
+
           <ul class="list-nav">
             <li>
-              <a href="./index.html" class="item active-link ">Студия</a>
+              <a href="./index.html" class="item active-link">Студия</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="item  link current">Портфолио</a>
+              <a href="./portfolio.html" class="item link current">Портфолио</a>
             </li>
             <li>
               <a href="#" class="item link">Контакты</a>
             </li>
           </ul>
-    
         </nav>
-    
+
         <ul class="contacts">
           <li>
-            <a href="mailto:info@devstudio.com" class="link active">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link active-contacts">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="link active">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link active-contacts">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
     <section class="section">
+      <div class="container">
+        <h1 class="visually-hidden">Портфолио работ</h1>
 
-    <div class="container">
+        <div class="filters">
+          <ul class="list-filtres button">
+            <li><button class="btn-potfolio active" type="button">Все</button></li>
+            <li><button class="btn-potfolio active" type="button">Веб-сайты</button></li>
+            <li><button class="btn-potfolio active" type="button">Приложения</button></li>
+            <li><button class="btn-potfolio active" type="button">Дизайн</button></li>
+            <li><button class="btn-potfolio active" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
 
-      <h1 class="visually-hidden">Технокряк</h1>
-      <h1 class="visually-hidden">Постер New Orlean vs Golden Star</h1>
-      <h1 class="visually-hidden">Ресторан Seafood</h1>
-      <h1 class="visually-hidden">Проект Prime</h1>
-      <h1 class="visually-hidden">Проект Boxes</h1>
-      <h1 class="visually-hidden">Inspiration has no Borders</h1>
-      <h1 class="visually-hidden">Издание Limited Edition</h1>
-      <h1 class="visually-hidden">Проект LAB</h1>
-      <h1 class="visually-hidden">Growing Business</h1>
+        <!-- секция основной контент main section portfolio -->
 
-      <div class="filters"><ul class="list-filtres button">
-          <li><button class="btn-potfolio active" type="button">Все</button></li>
-          <li><button class="btn-potfolio active" type="button">Веб-сайты</button></li>
-          <li><button class="btn-potfolio active" type="button">Приложения</button></li>
-          <li><button class="btn-potfolio active" type="button">Дизайн</button></li>
-          <li><button class="btn-potfolio active" type="button">Маркетинг</button></li>
-        </ul>
-      </div>
-        
-      
-      <!-- секция основной контент main section portfolio -->
-      
         <ul class="portfolio">
           <li class="item-portfolio">
             <img src="./images/img_1.webp" alt="" width="370" />
@@ -146,7 +135,7 @@
             </div>
           </li>
         </ul>
-    </div>
+      </div>
     </section>
 
     <!--футер-->
@@ -156,8 +145,13 @@
         <address>
           <ul class="list-adress">
             <li class="adress">
-              <a class="link active" href="https://goo.gl/maps/5KGoeBCeCaDYoBaEA" target="" rel="noreferrer noopener">г.
-                Киев, пр-т Леси Украинки, 26</a>
+              <a
+                class="link active"
+                href="https://goo.gl/maps/5KGoeBCeCaDYoBaEA"
+                target="_blank"
+                rel="noreferrer noopener"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
             </li>
             <li class="footer-link">
               <a class="link active" href="mailto:info@example.com">info@example.com</a>
@@ -166,8 +160,8 @@
               <a class="link active" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
+        </address>
       </div>
-      </address>
     </footer>
   </body>
 </html>
